@@ -1,5 +1,5 @@
 // import React, { useEffect, useState } from 'react';
-import Intro from './components/into/Intro';
+import Intro from './components/intro/Intro';
 import Toggle from './components/toggle/Toggle';
 
 // CONTEXT API APP
