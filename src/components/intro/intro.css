@@ -35,6 +35,7 @@
 .intro-title {
    height: 50px;
    overflow: hidden;
+   padding: 40px 0 0 0;
 }
 
 .intro-title__wrapper {
