@@ -1,5 +1,6 @@
 import React from 'react';
 import "./project.css";
+import Work from "../../img/poject.jpg";
 
 const Project = () => {
    return (
@@ -7,7 +8,7 @@ const Project = () => {
 					<h3 className="project-heading">Projects:</h3>
 					<div className="project__work">
 						<div className="project__work__item">
-							<img src="/static/img/projects/Schedule-Book-App.png" alt="Project" />
+							<img src={Work}  alt="Project" />
 
 							<a
 								href="https://godfreysam.github.io/daily_schedulebook_app/"
@@ -23,7 +24,7 @@ const Project = () => {
 							</a>
 						</div>
 						<div className="project__work__item">
-							<img src="/static/img/projects/github-clone.gif" alt="Project" />
+							<img src={Work} alt="Project" />
 
 							<a href="https://github-page-clone.herokuapp.com/" className="btn-light">
 								<i className="fas fa-eye"></i>Project
@@ -36,7 +37,7 @@ const Project = () => {
 							</a>
 						</div>
 						<div className="project__work__item">
-							<img src="/static/img/projects/github-clone.gif" alt="Project" />
+							<img src={Work} alt="Project" />
 
 							<a href="https://github-page-clone.herokuapp.com/" className="btn-light">
 								<i className="fas fa-eye"></i>Project

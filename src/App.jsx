@@ -1,16 +1,22 @@
-// import React, { useEffect, useState } from 'react';
+import React, { useContext } from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Intro from "./components/intro/Intro";
 import Navbar from "./components/navigation/Navbar";
 import Project from "./components/project/Project";
 import Contact from "./components/contact/Contact";
 import Toggle from "./components/toggle/Toggle";
+import { ThemeContext } from "./context";
 
 // CONTEXT API APP
 
 const App = () => {
+	const theme = useContext(ThemeContext);
+	const { darkMode } = theme.state;
 	return (
-		<>
+		<div style={{
+			backgroundColor: darkMode ? '#000' : "white",
+			color: darkMode && 'white'
+		}}>
 			<Router>
 				<Navbar />
 				<Switch>
@@ -20,7 +26,7 @@ const App = () => {
 				</Switch>
 			</Router>
 			<Toggle />
-		</>
+		</div>
 	);
 };
 
