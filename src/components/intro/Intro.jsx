@@ -18,15 +18,15 @@ const Intro = () => {
 						</div>
 					</div>
 					<p className="intro-desc">
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
-						perferendis soluta reprehenderit libero tenetur, aperiam pariatur deserunt
-						facere cum odit! Aperiam consequuntur vitae vel eius. Laborum quaerat
-						voluptas aspernatur laudantium.
+						I am a Software Engineer and Web Developer helping local and international
+						businesses come to terms with the present day realities, leveraging
+						technology for greater and wider reach, offering solutions and bridging
+						the gap between service providers and the timing consumers.
 					</p>
 				</div>
 			</div>
-         <div className="intro__right">
-            <div className="intro__bg"></div>
+			<div className="intro__right">
+				<div className="intro__bg"></div>
 				<img src={Me} alt="" className="intro__img" />
 			</div>
 		</div>
