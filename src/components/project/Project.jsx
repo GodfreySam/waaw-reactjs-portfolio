@@ -15,7 +15,10 @@ const Project = () => {
 					<div className="project__work">
 						<div className="project__work__item">
 							<img src={Work1} alt="Project" />
-							<a href="https://react-portfolio.surge.sh" className="btn-light">
+							<a
+								href="https://6168355caa6d8d09fc733d6c--godfreysam-react-portfolio.netlify.app/project"
+								className="btn-light"
+							>
 								<i className="fas fa-eye"></i>Project
 							</a>
 							<a
@@ -36,7 +39,10 @@ const Project = () => {
 						</div>
 						<div className="project__work__item">
 							<img src={Work3} alt="Project" />
-							<a href="https://waaw-social.surge.sh" className="btn-light">
+							<a
+								href="https://61682ff37497010073c1f357--materialui-social.netlify.app/"
+								className="btn-light"
+							>
 								<i className="fas fa-eye"></i>Project
 							</a>
 							<a href="https://github.com/GodfreySam/waaw-social" className="btn-dark">
